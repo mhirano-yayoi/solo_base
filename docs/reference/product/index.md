@@ -16,8 +16,8 @@
 | [書類](documents.md) | 見積書・納品書・請求書、状態、複製と変換 |
 | [明細](statements.md) | 明細の取込、未承認の承認 |
 | [証憑](evidence.md) | 見本の読み取り、取り込み、紐付け |
-| [チャット](chat.md) | 入口、読み取り、モデルへ渡す情報 |
+| [チャット](chat.md) | 入口、読み取り、固定応答 |
 | [デモデータ](demo-data.md) | デモ事業、初期データ、デモに戻す |
-| [技術](technology.md) | Ionic React、iOS モード、Dexie、Capacitor |
+| [技術](technology.md) | Ionic React、iOS モード、メモリ上の状態、GitHub Pages / PWA |
 | [用語集](glossary.md) | 製品名の対応と用語 |
 | [Figma](figma.md) | ワイヤーの方針とキャンバスの配置 |

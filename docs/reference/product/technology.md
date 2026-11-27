@@ -8,7 +8,7 @@
 - UI は `@ionic/react` 9.0.11 とする。
 - 見た目は iOS モードで固定する。
 - 部品は Ionic のコンポーネントと CSS 変数だけを使い、後から `mode` を外して Material を足せるようにする。
-- Capacitor は入れない。
+- Capacitor は入れない。配布は GitHub Pages と PWA とする。
 
 ## 会計ロジック
 
@@ -17,16 +17,18 @@
 
 ## 保存
 
-保存はブラウザの IndexedDB とする。
-ライブラリは Dexie 4.4.7（メンテナ David Fahlander / Anders Ekdahl）とする。
+状態はメモリ上に置き、永続化しない。
+`Dexie` と IndexedDB は使わない。
+初期値はデモデータとし、リロードでデモに戻る。
+バックアップ（JSON の書き出し）は作らない。
 
 ## チャットの読み取り
 
 チャットが読む件数と集計は、画面に依存しない関数で返す。
-読み取りは MCP のツールとする。詳細は [チャット](chat.md) を見る。
+読み取りはブラウザ内の関数とする。応答文は固定文で返す。LLM は呼ばない。詳細は [チャット](chat.md) を見る。
 
 ## 参照
 
 - [概要](overview.md)
 - [チャット](chat.md)
-- [作業: ドメインと保存](../../tasks/02-domain-and-storage.md)
+- [作業: 土台](../../tasks/02-foundation.md)
