@@ -15,8 +15,13 @@
 - チャット: 「未入金は何件？」→「未入金の請求は 1 件です。」（ホームの件数と一致）
 - チャットに履歴・新規・添付プラス・送るがある
 
-## 未実施（公開後）
+## 公開確認
 
-- GitHub Pages 上の直リンク確認（リポジトリ作成・push 後）
+- リポジトリ: https://github.com/mhirano-yayoi/solo_base
+- Pages: https://mhirano-yayoi.github.io/solo_base/#/home が開き、デモ事業のホームが表示される
+- Actions「Deploy to GitHub Pages」成功（workflow_dispatch）
+
+## 手元で追加確認するとよいこと
+
 - 実機でのホーム画面追加
-- 明細取込〜承認、請求発行〜入金、証憑紐付けの人手通し確認（ロジックと画面は実装済み）
+- 明細取込〜承認、請求発行〜入金、証憑紐付けの通し操作
